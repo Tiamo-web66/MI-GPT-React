@@ -4,6 +4,7 @@ import Home from "../pages/Home";
  
 const router = createBrowserRouter([
     {
+        name: '首页',
         path:'/',
         element: <Home />,
     }
