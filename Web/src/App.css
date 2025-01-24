@@ -1,5 +1,38 @@
 body, html {
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.app {
+  width: 100%;
+  height: 100%;
+}
+/* 去除所有状态下的下划线 */
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* 去除点击时的外部虚线框 */
+a {
+  outline: none;
+}
+
+/* 设置链接颜色为黑色，去除默认的蓝色 */
+a {
+  color: #000;
+}
+
+/* 使链接继承父元素的文本颜色 */
+a {
+  color: inherit;
 }
