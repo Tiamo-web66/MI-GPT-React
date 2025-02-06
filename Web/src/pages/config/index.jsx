@@ -57,7 +57,6 @@ const Config = () => {
 
   const siderStyle = {
     background: colorBgContainer,
-    minHeight: '100vh',
   };
 
   const menuStyle = {
